@@ -2,9 +2,9 @@
 IMPORT ML MODEL
 POST PREDICTIONS BACK TO THE MONGODB
 '''
-
+import asyncio
 from datetime import datetime, timedelta
-from ..db.mongo_util import db_util
+from ...backend.db.mongo_util import MongoDBUtil
 from typing import List, Tuple, Union
 from fastapi import FastAPI, WebSocket
 from pydantic import BaseModel
@@ -12,16 +12,18 @@ from fastapi import FastAPI
 from examples.example import run_example
 from backend.time_series import time_series_example
 
+uri = os.getenv("MONGO_URI")
 app = FastAPI()
-db = db_util()
+db = MongoDBUtil()
 
 
 
 @app.on_event("startup")
 async def startup_db_client(uri):
-    global client
-    client = AsyncIOMotorClient(uri)
-    # Or use any URL you need
+    client = MongoDBUtil(uri)
+    client.init_db("MassDebaters", "snow-forecast")
+    
+    
 
 @app.on_event("shutdown")
 async def shutdown_db_client():
