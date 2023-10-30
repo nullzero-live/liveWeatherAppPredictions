@@ -1,0 +1,821 @@
+2023-10-30 22:46:16,844 - snow_app - INFO - Getting Data....
+2023-10-30 22:47:34,295 - snow_app - INFO - Getting Data....
+2023-10-30 22:48:30,203 - snow_app - INFO - Getting Data....
+2023-10-30 22:48:31,625 - snow_app - INFO - Getting Data....
+2023-10-30 22:49:16,716 - snow_app - INFO - Getting Data....
+2023-10-30 22:49:17,207 - snow_app - ERROR - HTTPSConnectionPool(host='api.mountainhub.com', port=443): Max retries exceeded with url: /timeline?publisher=all&obs_type=snow_conditions%2Csnowpack_test&limit=1000 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x12685a410>: Failed to resolve 'api.mountainhub.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-10-30 22:49:36,796 - snow_app - INFO - Getting Data....
+2023-10-30 22:49:36,810 - snow_app - ERROR - HTTPSConnectionPool(host='api.mountainhub.com', port=443): Max retries exceeded with url: /timeline?publisher=all&obs_type=snow_conditions%2Csnowpack_test&limit=1000 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11f176410>: Failed to resolve 'api.mountainhub.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-10-30 22:49:38,562 - snow_app - INFO - Getting Data....
+2023-10-30 22:49:38,566 - snow_app - ERROR - HTTPSConnectionPool(host='api.mountainhub.com', port=443): Max retries exceeded with url: /timeline?publisher=all&obs_type=snow_conditions%2Csnowpack_test&limit=1000 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11f1775e0>: Failed to resolve 'api.mountainhub.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-10-30 23:28:30,921 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.249297,9.342854+50.0,10.0/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-30 23:45:18,709 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-30 23:49:07,982 - ts_ex - INFO - 
+time series:
+2023-10-30 23:49:07,982 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-30 23:49:09,230 - ts_ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-30 23:50:24,185 - ts_ex - INFO - 
+time series:
+2023-10-30 23:50:24,185 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-30 23:50:25,528 - ts_ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-30 23:53:11,055 - ts_ex - INFO - 
+time series:
+2023-10-30 23:53:11,055 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-30 23:53:12,301 - ts_ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-31 00:12:20,336 - ex - INFO - 
+time series:
+2023-10-31 00:12:20,336 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-31 00:12:21,673 - ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-31 00:19:43,678 - ts-ex - INFO - 
+time series:
+2023-10-31 00:19:43,678 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-31 00:19:44,943 - ts-ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-31 00:21:29,864 - ts-ex - INFO - 
+time series:
+2023-10-31 00:21:29,864 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-31 00:21:31,105 - ts-ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-31 00:22:39,222 - ts-ex - INFO - 
+time series:
+2023-10-31 00:22:39,223 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-31 00:22:40,487 - ts-ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-31 00:24:46,001 - ts-ex - INFO - 
+time series:
+2023-10-31 00:24:46,002 - meteomatics-conn - DEBUG - Calling URL: https://api.meteomatics.com/2023-10-30T00:00:00+00:00--2023-10-31T00:00:00+00:00:PT1H/t_2m:C,precip_1h:mm/47.25,9.34+30,-4/bin?connector=python_v<module 'utils.__version__' from '/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/__version__.py'>&model=mix (username = python-community)
+2023-10-31 00:24:47,250 - ts-ex - INFO - Failed, the exception is Query contains a whitespace
+2023-10-31 00:33:31,641 - ts-ex - INFO - 
+time series:
+2023-10-31 00:33:31,641 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:33:48,258 - ts-ex - INFO - 
+time series:
+2023-10-31 00:33:48,258 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:36:00,733 - ts-ex - INFO - 
+time series:
+2023-10-31 00:36:00,734 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:37:30,157 - ts-ex - INFO - 
+time series:
+2023-10-31 00:37:30,157 - ts-ex - INFO - 
+time series:
+2023-10-31 00:37:30,157 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:37:30,157 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:43:10,241 - ts-ex - INFO - 
+time series:
+2023-10-31 00:43:10,241 - ts-ex - INFO - 
+time series:
+2023-10-31 00:43:10,241 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:43:10,241 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:50:04,155 - ts-ex - INFO - 
+time series:
+2023-10-31 00:50:04,155 - ts-ex - INFO - 
+time series:
+2023-10-31 00:50:04,155 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:50:04,155 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:50:22,707 - ts-ex - INFO - 
+time series:
+2023-10-31 00:50:22,707 - ts-ex - INFO - 
+time series:
+2023-10-31 00:50:22,707 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:50:22,707 - ts-ex - INFO - Failed, the exception is 'API_BASE_URL'
+2023-10-31 00:56:05,659 - ts-ex - INFO - 
+time series:
+2023-10-31 00:56:05,659 - ts-ex - INFO - 
+time series:
+2023-10-31 00:56:05,659 - ts-ex - INFO - Failed, the exception is Please use datetime.datetime instead of <class 'datetime.timedelta'>
+2023-10-31 00:56:05,659 - ts-ex - INFO - Failed, the exception is Please use datetime.datetime instead of <class 'datetime.timedelta'>
+2023-10-31 00:57:42,557 - ts-ex - INFO - 
+time series:
+2023-10-31 00:57:42,557 - ts-ex - INFO - 
+time series:
+2023-10-31 00:57:42,557 - ts-ex - INFO - Failed, the exception is Please use datetime.datetime instead of <class 'datetime.timedelta'>
+2023-10-31 00:57:42,557 - ts-ex - INFO - Failed, the exception is Please use datetime.datetime instead of <class 'datetime.timedelta'>
+2023-10-31 04:07:06,167 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 303, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:07:06,167 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 303, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:07:06,167 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 303, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:09:42,681 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T17:39:40.929711+00:00--2023-11-29T17:39:40.929711+00:00:1:00:00
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 302, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T17:39:40.929711+00:00--2023-11-29T17:39:40.929711+00:00:1:00:00
+2023-10-31 04:09:42,681 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T17:39:40.929711+00:00--2023-11-29T17:39:40.929711+00:00:1:00:00
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 302, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T17:39:40.929711+00:00--2023-11-29T17:39:40.929711+00:00:1:00:00
+2023-10-31 04:09:42,681 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T17:39:40.929711+00:00--2023-11-29T17:39:40.929711+00:00:1:00:00
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 302, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T17:39:40.929711+00:00--2023-11-29T17:39:40.929711+00:00:1:00:00
+2023-10-31 04:10:52,559 - ts-ex - ERROR - Failed, the exception is 'datetime.timedelta' object has no attribute 'isoformat'
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 297, in query_time_series
+    INTERVAL_TS=interval.isoformat(),
+AttributeError: 'datetime.timedelta' object has no attribute 'isoformat'
+2023-10-31 04:10:52,559 - ts-ex - ERROR - Failed, the exception is 'datetime.timedelta' object has no attribute 'isoformat'
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 297, in query_time_series
+    INTERVAL_TS=interval.isoformat(),
+AttributeError: 'datetime.timedelta' object has no attribute 'isoformat'
+2023-10-31 04:10:52,559 - ts-ex - ERROR - Failed, the exception is 'datetime.timedelta' object has no attribute 'isoformat'
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 297, in query_time_series
+    INTERVAL_TS=interval.isoformat(),
+AttributeError: 'datetime.timedelta' object has no attribute 'isoformat'
+2023-10-31 04:12:38,154 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 303, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:12:38,154 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 303, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:12:38,154 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 303, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:20:17,259 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:20:17,259 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:20:17,259 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:35:02,488 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T18:04:59.430981+00:00--2023-11-29T18:04:59.430981+00:00:P%P
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 304, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T18:04:59.430981+00:00--2023-11-29T18:04:59.430981+00:00:P%P
+2023-10-31 04:35:02,488 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T18:04:59.430981+00:00--2023-11-29T18:04:59.430981+00:00:P%P
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 304, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T18:04:59.430981+00:00--2023-11-29T18:04:59.430981+00:00:P%P
+2023-10-31 04:35:02,488 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T18:04:59.430981+00:00--2023-11-29T18:04:59.430981+00:00:P%P
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 304, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T18:04:59.430981+00:00--2023-11-29T18:04:59.430981+00:00:P%P
+2023-10-31 04:36:07,574 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T18:06:05.679594+00:00--2023-11-29T18:06:05.679594+00:00:P%P
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 304, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T18:06:05.679594+00:00--2023-11-29T18:06:05.679594+00:00:P%P
+2023-10-31 04:36:07,574 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T18:06:05.679594+00:00--2023-11-29T18:06:05.679594+00:00:P%P
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 304, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T18:06:05.679594+00:00--2023-11-29T18:06:05.679594+00:00:P%P
+2023-10-31 04:36:07,574 - ts-ex - ERROR - Failed, the exception is Invalid time string: 2023-10-30T18:06:05.679594+00:00--2023-11-29T18:06:05.679594+00:00:P%P
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 304, in query_time_series
+    response = query_api(url, username, password, request_type=request_type)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 121, in query_api
+    raise exc(response.text)
+utils.exceptions.BadRequest: Invalid time string: 2023-10-30T18:06:05.679594+00:00--2023-11-29T18:06:05.679594+00:00:P%P
+2023-10-31 04:36:16,522 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:36:16,522 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:36:16,522 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 282, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 211, in datenum_to_date
+    total_seconds = round(dt.datetime(days=date_num - 366).total_seconds())
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:38:07,181 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 283, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 283, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 212, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:38:07,181 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 283, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 283, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 212, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:38:07,181 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 283, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 283, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 212, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:38:38,423 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:38:38,423 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:38:38,423 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:41:34,086 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:41:34,086 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:41:34,086 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:42:50,208 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:42:50,208 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:42:50,208 - ts-ex - ERROR - Failed, the exception is function missing required argument 'year' (pos 1)
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt.datetime(1, 1, 1) + dt.datetime(seconds=total_seconds) - dt.datetime(days=1)
+TypeError: function missing required argument 'year' (pos 1)
+2023-10-31 04:46:14,755 - ts-ex - ERROR - Failed, the exception is 'module' object is not callable
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt(1, 1, 1) + td(seconds=total_seconds) - td(days=1)
+TypeError: 'module' object is not callable
+2023-10-31 04:46:14,755 - ts-ex - ERROR - Failed, the exception is 'module' object is not callable
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt(1, 1, 1) + td(seconds=total_seconds) - td(days=1)
+TypeError: 'module' object is not callable
+2023-10-31 04:46:14,755 - ts-ex - ERROR - Failed, the exception is 'module' object is not callable
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 284, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 213, in datenum_to_date
+    return dt(1, 1, 1) + td(seconds=total_seconds) - td(days=1)
+TypeError: 'module' object is not callable
+2023-10-31 04:54:58,579 - ts-ex - ERROR - Failed, the exception is name 'current_file_name' is not defined
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 290, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 290, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 215, in datenum_to_date
+    print(f"In file '{current_file_name}', function '{current_function_name}' at line {current_line_number}, date_num = {date_num}")
+NameError: name 'current_file_name' is not defined
+2023-10-31 04:54:58,579 - ts-ex - ERROR - Failed, the exception is name 'current_file_name' is not defined
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 290, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 290, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 215, in datenum_to_date
+    print(f"In file '{current_file_name}', function '{current_function_name}' at line {current_line_number}, date_num = {date_num}")
+NameError: name 'current_file_name' is not defined
+2023-10-31 04:54:58,579 - ts-ex - ERROR - Failed, the exception is name 'current_file_name' is not defined
+Traceback (most recent call last):
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/time_series.py", line 18, in time_series_example
+    df_ts = api.query_time_series(coordinate_list=COORDINATES_TS, startdate=STARTDATE_TS, enddate=ENDDATE_TS, interval=INTERVAL_TS, parameters=PARAMETERS_TS, username=username_default, password=password_default,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 305, in query_time_series
+    df = convert_time_series_binary_response_to_df(response.content, coordinate_list, extended_params,
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/api.py", line 151, in convert_time_series_binary_response_to_df
+    df = binary_parser.parse(parameters, station, coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 21, in parse
+    return self._parse_latlon(parameters[:], coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 34, in _parse_latlon
+    return self._parse_internal(parameters, 'latlon', coordinate_list)
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/binary_parser.py", line 71, in _parse_internal
+    df.index = parse_date_num(df.reset_index()["validdate"])
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 290, in parse_date_num
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 290, in <dictcomp>
+    dates = {date: datenum_to_date(date) for date in s.unique()}
+  File "/Users/nullzero/Documents/repos/gitlab.com/nullzero-id/snow-project/snow-forecast/backend/utils/parsing_util.py", line 215, in datenum_to_date
+    print(f"In file '{current_file_name}', function '{current_function_name}' at line {current_line_number}, date_num = {date_num}")
+NameError: name 'current_file_name' is not defined
