@@ -12,7 +12,6 @@ class MongoDBUtil:
     def __init__(self, client: AsyncIOMotorClient = None, db_name=None, collection_name=None, uri=uri):
         if client:
             self.client = client
-            
         else:
             try:
                 self.client = AsyncIOMotorClient(uri)
@@ -42,4 +41,4 @@ class MongoDBUtil:
         return document
 
 
-db_util = MongoDBUtil(db_name="myDB", collection_name="myCollection")
+
